@@ -1,0 +1,76 @@
+============================================================
+Loading ml_engine (XGBoost + IsoForest training)...
+============================================================
+[FraudShield] Initialising ML Engine...
+[FraudShield] Generating proxy dataset (CCF mirror)...
+[FraudShield] Training XGBoost classifier...
+[FraudShield] XGBoost AUC (proxy test set): 1.0000
+[FraudShield] Training Isolation Forest (anomaly detection)...
+[FraudShield] XGBoost native TreeSHAP ready (no external shap package required)
+[FraudShield] Precision=0.998 | Recall=1.000 | F1=0.999 | PR-AUC=1.0000
+[FraudShield] Confusion: TP=850 | FP=2 | FN=0 | TN=9148
+[FraudShield] Est. Rs. saved per test set: Rs.28,900,000 (2.89 Cr)
+[FraudShield] ML Engine ready - OK
+
+[1] Raw ML - Safe transaction (rent, business hours)
+  risk_score = 7.3  | level = LOW
+  XGB = 0.0  | ISO = 27.6  | Graph = 11.8
+  confidence = 100.0
+  explanations: 3 items
+  shap_features: 3 items
+  PASS
+
+[2] Raw ML - Sentinel amount + midnight + scam note
+  risk_score = 89.9  | level = HIGH
+  behavioral_score = 100.0  | behavioral_reasons: 4
+  PASS
+
+[3] Simulator - safe
+  risk_score = 7.2  | level = LOW
+  is_simulated = True
+  scenario_label = Safe Transaction
+  PASS
+
+[4] Simulator - otp_scam
+  risk_score = 86.9  | level = HIGH
+  explanations: ['A significant proportion of accounts connected to this transaction cluster have prior fraud flags.']
+  PASS
+
+[4] Simulator - fraud_ring
+  risk_score = 90.0  | level = HIGH
+  explanations: ['A significant proportion of accounts connected to this transaction cluster have prior fraud flags.']
+  PASS
+
+[4] Simulator - micro_fraud
+  risk_score = 88.8  | level = HIGH
+  explanations: ['A significant proportion of accounts connected to this transaction cluster have prior fraud flags.']
+  PASS
+
+[5] Determinism check - same scenario same result
+  [ safe ] score stable: 7.2
+  [ otp_scam ] score stable: 86.9
+  [ fraud_ring ] score stable: 90.0
+  [ micro_fraud ] score stable: 88.8
+  PASS
+
+[6] Model info endpoint
+  XGBoost AUC (proxy test): 1.0
+  n_features: 25
+  Dataset (proxy): Credit Card Fraud Detection — ULB / Kaggle
+  Govt sources: 3 sources
+  Govt stats used: 6 stats
+  Ensemble: 0.50 x XGBoost + 0.20 x IsoForest + 0.15 x GraphRisk + 0.15 x Behavioral
+  Behavioral rules: 7 rules
+  Disclaimers: 7 items
+  PASS
+
+[7] Scenario keys
+  Available scenarios: ['safe', 'otp_scam', 'fraud_ring', 'micro_fraud']
+  PASS
+
+============================================================
+  ALL TESTS PASSED - ML Engine verified OK
+  AUC on proxy test set: 1.0
+  SHAP: XGBoost native TreeSHAP (pred_contribs=True)
+  Ensemble: 60% XGB + 25% IsoForest + 15% Graph
+============================================================
