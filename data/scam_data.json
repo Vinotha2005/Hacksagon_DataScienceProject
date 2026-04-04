@@ -1,0 +1,282 @@
+{
+  "cities": [
+    {
+      "name": "Delhi",
+      "lat": 28.6139,
+      "lng": 77.2090,
+      "scam_count": 487,
+      "trending_pct": 47,
+      "risk_level": "HIGH",
+      "top_scams": [
+        {"type": "OTP Fraud", "count": 189},
+        {"type": "Fake KYC", "count": 142},
+        {"type": "UPI Phishing", "count": 96}
+      ]
+    },
+    {
+      "name": "Mumbai",
+      "lat": 19.0760,
+      "lng": 72.8777,
+      "scam_count": 423,
+      "trending_pct": 38,
+      "risk_level": "HIGH",
+      "top_scams": [
+        {"type": "Fake IRCTC Refund", "count": 167},
+        {"type": "Investment Fraud", "count": 134},
+        {"type": "OTP Fraud", "count": 89}
+      ]
+    },
+    {
+      "name": "Bangalore",
+      "lat": 12.9716,
+      "lng": 77.5946,
+      "scam_count": 356,
+      "trending_pct": 29,
+      "risk_level": "HIGH",
+      "top_scams": [
+        {"type": "Job Offer Fraud", "count": 145},
+        {"type": "Loan App Scam", "count": 112},
+        {"type": "Fake KYC", "count": 67}
+      ]
+    },
+    {
+      "name": "Chennai",
+      "lat": 13.0827,
+      "lng": 80.2707,
+      "scam_count": 234,
+      "trending_pct": 18,
+      "risk_level": "MEDIUM",
+      "top_scams": [
+        {"type": "Electricity Bill Scam", "count": 98},
+        {"type": "OTP Fraud", "count": 78},
+        {"type": "Fake Courier", "count": 45}
+      ]
+    },
+    {
+      "name": "Hyderabad",
+      "lat": 17.3850,
+      "lng": 78.4867,
+      "scam_count": 298,
+      "trending_pct": 34,
+      "risk_level": "HIGH",
+      "top_scams": [
+        {"type": "UPI Phishing", "count": 121},
+        {"type": "Job Offer Fraud", "count": 98},
+        {"type": "Investment Fraud", "count": 56}
+      ]
+    },
+    {
+      "name": "Kolkata",
+      "lat": 22.5726,
+      "lng": 88.3639,
+      "scam_count": 189,
+      "trending_pct": 12,
+      "risk_level": "MEDIUM",
+      "top_scams": [
+        {"type": "Loan App Scam", "count": 78},
+        {"type": "Fake KYC", "count": 65},
+        {"type": "OTP Fraud", "count": 34}
+      ]
+    },
+    {
+      "name": "Pune",
+      "lat": 18.5204,
+      "lng": 73.8567,
+      "scam_count": 267,
+      "trending_pct": 22,
+      "risk_level": "HIGH",
+      "top_scams": [
+        {"type": "Investment Fraud", "count": 112},
+        {"type": "Job Offer Fraud", "count": 89},
+        {"type": "UPI Phishing", "count": 45}
+      ]
+    },
+    {
+      "name": "Jaipur",
+      "lat": 26.9124,
+      "lng": 75.7873,
+      "scam_count": 156,
+      "trending_pct": 27,
+      "risk_level": "MEDIUM",
+      "top_scams": [
+        {"type": "OTP Fraud", "count": 67},
+        {"type": "Electricity Bill Scam", "count": 54},
+        {"type": "Matrimonial Scam", "count": 23}
+      ]
+    },
+    {
+      "name": "Lucknow",
+      "lat": 26.8467,
+      "lng": 80.9462,
+      "scam_count": 134,
+      "trending_pct": 19,
+      "risk_level": "MEDIUM",
+      "top_scams": [
+        {"type": "Fake IRCTC Refund", "count": 56},
+        {"type": "OTP Fraud", "count": 45},
+        {"type": "Fake KYC", "count": 23}
+      ]
+    },
+    {
+      "name": "Ahmedabad",
+      "lat": 23.0225,
+      "lng": 72.5714,
+      "scam_count": 198,
+      "trending_pct": 31,
+      "risk_level": "HIGH",
+      "top_scams": [
+        {"type": "Investment Fraud", "count": 89},
+        {"type": "Loan App Scam", "count": 67},
+        {"type": "UPI Phishing", "count": 34}
+      ]
+    },
+    {
+      "name": "Surat",
+      "lat": 21.1702,
+      "lng": 72.8311,
+      "scam_count": 112,
+      "trending_pct": 14,
+      "risk_level": "MEDIUM",
+      "top_scams": [
+        {"type": "OTP Fraud", "count": 45},
+        {"type": "Job Offer Fraud", "count": 34},
+        {"type": "Fake KYC", "count": 23}
+      ]
+    },
+    {
+      "name": "Bhopal",
+      "lat": 23.2599,
+      "lng": 77.4126,
+      "scam_count": 89,
+      "trending_pct": 8,
+      "risk_level": "LOW",
+      "top_scams": [
+        {"type": "OTP Fraud", "count": 34},
+        {"type": "Electricity Bill Scam", "count": 28},
+        {"type": "Fake KYC", "count": 19}
+      ]
+    },
+    {
+      "name": "Patna",
+      "lat": 25.5941,
+      "lng": 85.1376,
+      "scam_count": 78,
+      "trending_pct": 6,
+      "risk_level": "LOW",
+      "top_scams": [
+        {"type": "Fake IRCTC Refund", "count": 32},
+        {"type": "OTP Fraud", "count": 26},
+        {"type": "Loan App Scam", "count": 14}
+      ]
+    },
+    {
+      "name": "Indore",
+      "lat": 22.7196,
+      "lng": 75.8577,
+      "scam_count": 95,
+      "trending_pct": 11,
+      "risk_level": "LOW",
+      "top_scams": [
+        {"type": "UPI Phishing", "count": 38},
+        {"type": "OTP Fraud", "count": 31},
+        {"type": "Job Offer Fraud", "count": 19}
+      ]
+    },
+    {
+      "name": "Nagpur",
+      "lat": 21.1458,
+      "lng": 79.0882,
+      "scam_count": 108,
+      "trending_pct": 15,
+      "risk_level": "MEDIUM",
+      "top_scams": [
+        {"type": "Investment Fraud", "count": 45},
+        {"type": "OTP Fraud", "count": 38},
+        {"type": "Fake KYC", "count": 21}
+      ]
+    },
+    {
+      "name": "Coimbatore",
+      "lat": 11.0168,
+      "lng": 76.9558,
+      "scam_count": 87,
+      "trending_pct": 9,
+      "risk_level": "LOW",
+      "top_scams": [
+        {"type": "Electricity Bill Scam", "count": 34},
+        {"type": "Fake Courier", "count": 28},
+        {"type": "OTP Fraud", "count": 19}
+      ]
+    },
+    {
+      "name": "Kochi",
+      "lat": 9.9312,
+      "lng": 76.2673,
+      "scam_count": 76,
+      "trending_pct": 7,
+      "risk_level": "LOW",
+      "top_scams": [
+        {"type": "Job Offer Fraud", "count": 31},
+        {"type": "OTP Fraud", "count": 25},
+        {"type": "Loan App Scam", "count": 14}
+      ]
+    },
+    {
+      "name": "Chandigarh",
+      "lat": 30.7333,
+      "lng": 76.7794,
+      "scam_count": 98,
+      "trending_pct": 16,
+      "risk_level": "MEDIUM",
+      "top_scams": [
+        {"type": "OTP Fraud", "count": 41},
+        {"type": "Fake KYC", "count": 33},
+        {"type": "Investment Fraud", "count": 18}
+      ]
+    },
+    {
+      "name": "Visakhapatnam",
+      "lat": 17.6868,
+      "lng": 83.2185,
+      "scam_count": 91,
+      "trending_pct": 13,
+      "risk_level": "LOW",
+      "top_scams": [
+        {"type": "Fake IRCTC Refund", "count": 37},
+        {"type": "OTP Fraud", "count": 30},
+        {"type": "UPI Phishing", "count": 19}
+      ]
+    },
+    {
+      "name": "Guwahati",
+      "lat": 26.1445,
+      "lng": 91.7362,
+      "scam_count": 63,
+      "trending_pct": 4,
+      "risk_level": "LOW",
+      "top_scams": [
+        {"type": "Job Offer Fraud", "count": 26},
+        {"type": "OTP Fraud", "count": 21},
+        {"type": "Fake KYC", "count": 12}
+      ]
+    }
+  ],
+  "scam_types_weekly": [
+    {"type": "OTP Fraud", "count": 1247},
+    {"type": "Fake KYC", "count": 987},
+    {"type": "UPI Phishing", "count": 834},
+    {"type": "Fake IRCTC Refund", "count": 723},
+    {"type": "Investment Fraud", "count": 612},
+    {"type": "Job Offer Fraud", "count": 534},
+    {"type": "Loan App Scam", "count": 478},
+    {"type": "Electricity Bill Scam", "count": 389},
+    {"type": "Fake Courier", "count": 267},
+    {"type": "Matrimonial Scam", "count": 198}
+  ],
+  "stats": {
+    "scams_blocked_today": 2847,
+    "users_protected": 1200000,
+    "amount_saved_cr": 4.7,
+    "active_patterns": 127
+  }
+}
