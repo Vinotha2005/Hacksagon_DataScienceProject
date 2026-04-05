@@ -7,6 +7,7 @@
 FraudShield is a **real-time, explainable fraud detection system** for UPI payments.
 It combines a **4-layer ML ensemble** calibrated from Indian government cybercrime data (NCRB 2023, TRAI 14C) with a transparent AI explanation engine — so users know *why* a transaction is risky, not just *that* it is.
 
+APP LINK : https://hacksagon-data-science-project.vercel.app/
 ---
 
 ## 🚀 Live Demo
